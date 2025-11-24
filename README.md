@@ -1,6 +1,5 @@
-# UTS-Pemograman-Web1
-Assalamualaikum Buk,
-Berikut merupakan hasil screenshot pengerjaan projek UTS
+# UTS-Pemograman-Web 1
+Berikut merupakan hasil screenshot pengerjaan projek UTS pemograman web 1
 1. Project 1
    - Halaman login dan registrasi
      <img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/e3a47e75-44db-4bc3-b6a4-7d86836eae85" />
