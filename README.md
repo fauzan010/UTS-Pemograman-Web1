@@ -13,7 +13,7 @@ Berikut merupakan hasil screenshot pengerjaan projek UTS
      <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/4173fc60-86be-4a38-bd13-e60acccdd3e4" />
      
 2. Project 2
-   Untuk pengerjaan project 2, di sini saya menggunakan aplikasi Bruno.
+   - Untuk pengerjaan project 2, di sini saya menggunakan aplikasi Bruno.
    - Method: GET, URL: http://localhost:5000/infos. Untuk menampilkan semua data dummy (READ)
      <img width="1897" height="994" alt="image" src="https://github.com/user-attachments/assets/4526f0b8-500e-453a-bdcc-a469495d4860" />
    - Method: Get, URL: http://localhost:5000/infos/1. Untuk menampilkan data dengan id 1
