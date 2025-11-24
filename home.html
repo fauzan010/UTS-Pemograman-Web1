@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzan Teknologi - Home</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function logout() {
+            alert("Logout berhasil!");
+            window.location.href = "index.html";
+        }
+    </script>
+
+    <style>
+        /* Tidak mengganggu style utama kamu */
+        .banner-container {
+            position: relative;
+        }
+
+        .banner-text {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.55);
+            padding: 20px 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 80%;
+            color: #fff;
+            backdrop-filter: blur(4px);
+        }
+
+        .banner-text h3 {
+            font-weight: bold;
+            color: #4da3ff;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand fw-bold">Fauzan Teknologi</a>
+        <button onclick="logout()" class="btn btn-danger px-4">Logout</button>
+    </div>
+</nav>
+
+<!-- HEADER BANNER -->
+<header class="banner-container">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1920"
+         width="100%" height="350px" style="object-fit:cover;">
+
+    <!-- PROFIL PERUSAHAAN (Tidak mengubah tampilan utama kamu) -->
+    <div class="banner-text">
+        <h3>Fauzan Teknologi</h3>
+        <p>
+            Perusahaan teknologi yang berfokus pada pengembangan inovasi digital, 
+            kecerdasan buatan, keamanan siber, dan solusi perangkat lunak modern 
+            untuk mendukung transformasi digital di Indonesia.
+        </p>
+    </div>
+</header>
+
+<!-- CONTENT -->
+<div class="container my-5">
+    <h2 class="text-center mb-5 fw-bold text-primary">Informasi Teknologi Terbaru</h2>
+
+    <div class="row g-4">
+
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+            <div class="card custom-card shadow-lg hover-scale">
+                <img src="img/ai.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">AI di Tahun 2025</h5>
+                    <p class="card-text">Artificial Intelligence berkembang pesat mendukung otomasi dan efisiensi industri modern.</p>
+                    <a href="detail-ai.html" class="btn btn-primary w-100">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+            <div class="card custom-card shadow-lg hover-scale">
+                <img src="img/software.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Perkembangan Software Development</h5>
+                    <p class="card-text">Framework baru terus bermunculan untuk mempercepat proses pengembangan aplikasi modern.</p>
+                    <a href="detail-software.html" class="btn btn-primary w-100">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+            <div class="card custom-card shadow-lg hover-scale">
+                <img src="img/cyber1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Cyber Security 2025</h5>
+                    <p class="card-text">Keamanan digital menjadi fokus utama karena tingginya ancaman serangan siber global.</p>
+                    <a href="detail-cyber.html" class="btn btn-primary w-100">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    ©Copyright by 23552011029_Fauzan Rizkika Kurnia_TIF RP 23 CNS B
+</footer>
+
+</body>
+</html>

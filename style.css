@@ -1,0 +1,66 @@
+/* ===== GENERAL STYLE ===== */
+body {
+    background: linear-gradient(135deg, #0a0f24, #0f1e45);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Footer */
+footer {
+    background: #000 !important;
+}
+
+/* Card Animasi */
+.card-tech {
+    background: #111b39;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-tech:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.4);
+}
+
+.card-tech .card-title {
+    color: #4da3ff;
+}
+
+/* Button modern */
+.btn-tech {
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    border: none;
+    color: white !important;
+    font-weight: bold;
+}
+
+.btn-tech:hover {
+    transform: scale(1.03);
+}
+
+/* Form background */
+.form-box {
+    background: #11182f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 136, 255, 0.2);
+}
+
+/* ========================================= */
+/*        UNIVERSAL HOVER SCALE EFFECT       */
+/* ========================================= */
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
